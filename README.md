@@ -96,3 +96,8 @@ For example, instead of: `tf\cfg\autoexec.cfg`, Place it here: `tf\cfg\app\autoe
 Do the same for class-specific configs: `tf\cfg\app\<class>.cfg`
 
 I found this out [here](https://github.com/jooonior/tf2-loadouts-script/issues/15#issuecomment-2539331556), lmao.
+
+## FP's TO EDIT LIST:
+
+- remove surplurous echos (stop clogging my chamber full of echos you fuck)
+- yeah thats about it lmao
