@@ -1,6 +1,7 @@
 # junior's loadouts script
 
 Loadout specific settings and a resup bind that knows which loadout you're on.
+
 Edits by FP
 
 ## Features
@@ -68,18 +69,22 @@ loadouts.medic
 ## FAQ
 
 ### There's a delay between when I press the key and respawning.
+
 That's normal. Happens with all resupply binds. You should press it
 (or spam it) right before you enter spawn.
 
 ### Why does `loadouts.<class>` have to be at the end?
+
 It doesn't. But anything that comes after it overrides
 the `loadouts.cfg.X` settings. If you are sure you're not breaking
 anything, you can put it anywhere you like.
 
 ### Doesn't it break when item servers are down?
+
 Yup.
 
 ### This won't function at all!!
+
 If you’re using mastercomfig, you need to place some of your config-related files in `tf/cfg/app/(config).cfg` instead.
 
 mastercomfig manages its own config files that are injected at runtime.
