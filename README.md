@@ -11,6 +11,11 @@ Edits by FP
 - remembers which loadout you have active on each class,
   even after you restart TF2
 
+FP CHANGES:
+- from a whole VPK to a single init.cfg
+- removing many (frankly unnessecary) echo calls
+- Moved where the txt files are stored for organization purpouses (there's already too much in cfg, air that shit out)
+
 # Resup bind _aka b4nny bind_
 lets you resupply while in spawn without needing to touch the fridge/cabinet.
 Unlike switching classes, it preserves all of your buildings, stickies
