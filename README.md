@@ -15,6 +15,7 @@ FP CHANGES:
 - from a whole VPK to a single init.cfg
 - stripping many (frankly unnessecary) echo calls, leaving only the required ones.
 - ~~Moved where the txt files are stored for organization purpouses (there's already too much in cfg, air that shit out)~~
+
 ^ I tried but it turns out this is litteraly impossible due to how `sixense_write_bindings` works. FUCK.
 
 # Resup bind _aka b4nny bind_
