@@ -13,8 +13,9 @@ Edits by FP
 
 FP CHANGES:
 - from a whole VPK to a single init.cfg
-- removing many (frankly unnessecary) echo calls
-- Moved where the txt files are stored for organization purpouses (there's already too much in cfg, air that shit out)
+- stripping many (frankly unnessecary) echo calls, leaving only the required ones.
+- ~~Moved where the txt files are stored for organization purpouses (there's already too much in cfg, air that shit out)~~
+^ I tried but it turns out this is litteraly impossible due to how `sixense_write_bindings` works. FUCK.
 
 # Resup bind _aka b4nny bind_
 lets you resupply while in spawn without needing to touch the fridge/cabinet.
@@ -23,8 +24,8 @@ and ubers (but not stored crits, heads or banner charges).
 
 ## Setup
 
-1. Download init.cfg, put it in `tf/cfg/loadouts/`. If the folder doesn't exist, create it.
-2. Add `exec loadouts/init` to your `autoexec.cfg`
+1. Download loadouts.cfg, put it in `tf/cfg`. If the folder doesn't exist, create it.
+2. Add `exec loadouts` to your `autoexec.cfg`
 3. Add `loadouts.<class>` **at the end** of each of your `<class>.cfg`  
 
    Replace `<class>` with actual class names:
@@ -54,7 +55,7 @@ You can set these aliases to execute arbitrary commands when changing lodouts.
 If you want to set these per class in your `<class>.cfg`, you need to
 do so **before** the `loadouts.<class>` line.
 If you want to set them globally, do so in your `autoexec.cfg` **after**
-the `exec loadouts/init` line.
+the `exec loadouts` line.
 
 Don't forget to reset these aliases (and affected settings) for other classes,
 otherwise their values will carry over.
@@ -104,5 +105,5 @@ I found this out [here](https://github.com/jooonior/tf2-loadouts-script/issues/1
 
 ## FP's TO EDIT LIST:
 
-- remove surplurous echos (stop clogging my chamber full of echos you fuck)
-- yeah thats about it lmao
+- ~~remove surplurous echos (stop clogging my chamber full of echos you fuck)~~
+done and i cant think of much else to do honestly.
